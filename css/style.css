@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: 'GothamRounded-Medium';
 }
 
@@ -12,9 +11,6 @@ body {
     top: 45%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    text-align: center;
-    color: white;
-    font-size: 30px;
 }
 
 .main__title {
@@ -22,9 +18,7 @@ body {
 }
 
 .btn-s {
-    /* -> With Tools.css */
     display: inline-block;
-    /* -> With Tools.css */
 }
 
 .btn-s > button:not(:last-child) {
@@ -40,35 +34,15 @@ body {
 
 .main__btn {
     padding: 15px 10px;
-    /* -> With Tools.css */
     margin-top: 10px;
-    /* -> With Tools.css */
     width: 100%;
-    color: #1ABC9C;
-    /* -> With Tools.css */
-    font-size: 20px;
-    /* -> With Tools.css */
     font-family: 'GothamRounded-Bold';
-    /* -> With Tools.css */
     background: white;
-    /* -> With Tools.css */
-    /* -> With Tools.css */
-    border: 0;
-    /* -> With Tools.css */
-    /* -> With Tools.css */
     border-radius: 30px;
-    /* -> With Tools.css */
     outline: none;
-    /* -> With Tools.css */
 }
 
 .main__btn-2 {
-    /* -> With Tools.css */
-    background: transparent !important;
-    /* -> With Tools.css */
-    /* -> With Tools.css */
-    color: white !important;
-    /* -> With Tools.css */
     border: 2px solid white;
 }
 
