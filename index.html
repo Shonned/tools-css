@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Get Tools</title>
+        <link rel="icon" type="image/png" href="logo/favicon.png" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="font/font.css" />
+        <!-- //////////////////////////////////////////// -->
+        <link rel="stylesheet" href="css/tool.css" />
+        <!-- //////////////////////////////////////////// -->
+    </head>
+    <body class="bg">
+        <div class="__main__">
+            <img src="logo/white_2.png">
+            <p class="main__desc">The css file that makes your life easier.</p>
+            <div class="btn-s">
+                <a href=""><button class="main__btn">Download</button></a>
+                <a href="#doc"><button class="main__btn main__btn-2">Documentation</button></a>
+            </div>
+        </div>
+        <div id="doc" class="modal-window">
+            <div>
+                <a href="#" title="Close" class="modal-close"><b>Close</b></a>
+                <h1 class="modal__center">👋 Welcome to Tools</h1>
+                <br>
+                <div class="modal__center">Before continue select your language</div>
+                <br>
+                <div class="modal__center">
+                    <input type="checkbox" id="en-en" name="en-en" onclick="language();">
+                    <label for="en-en">English</label>
+                    <input type="checkbox" id="fr-fr" name="fr-fr" disabled>
+                    <label for="fr-fr">Français</label>
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'GothamRounded-Medium';
+}
+
+.bg {
+    background-color: #1ABC9C;
+}
+
+.__main__ {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.main__title {
+    font-family: 'GothamRounded-Bold';
+}
+
+.btn-s {
+    /* -> With Tools.css */
+    display: inline-block;
+    /* -> With Tools.css */
+}
+
+.btn-s > button:not(:last-child) {
+    margin-right: 10px;
+    
+}
+
+@media screen and (max-width: 750px) {
+    button {
+        margin-top: 10px;
+    }
+}
+
+.main__btn {
+    padding: 15px 10px;
+    /* -> With Tools.css */
+    margin-top: 10px;
+    /* -> With Tools.css */
+    width: 100%;
+    color: #1ABC9C;
+    /* -> With Tools.css */
+    font-size: 20px;
+    /* -> With Tools.css */
+    font-family: 'GothamRounded-Bold';
+    /* -> With Tools.css */
+    background: white;
+    /* -> With Tools.css */
+    /* -> With Tools.css */
+    border: 0;
+    /* -> With Tools.css */
+    /* -> With Tools.css */
+    border-radius: 30px;
+    /* -> With Tools.css */
+    outline: none;
+    /* -> With Tools.css */
+}
+
+.main__btn-2 {
+    /* -> With Tools.css */
+    background: transparent !important;
+    /* -> With Tools.css */
+    /* -> With Tools.css */
+    color: white !important;
+    /* -> With Tools.css */
+    border: 2px solid white;
+}
+
+.main__btn:active {
+    border: 0;
+}
+
+
+/* MODAL */
+
+.modal-window {
+	position: fixed;
+	background-color: #1ABC9C;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.modal-window:target {
+	visibility: visible;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modal-window>div {
+	border-radius: 16px;
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	padding: 2em;
+	background: #ffffff;
+}
+
+.modal-window header {
+	font-weight: bold;
+}
+
+.modal-window h1 {
+	font-size: 150%;
+	margin: 8px 0px;
+}
+
+.modal-close {
+	color: #aaa;
+	line-height: 50px;
+	font-size: 80%;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 70px;
+	text-decoration: none;
+}
+
+.modal-close:hover {
+	color: black;
+}
+
+.container {
+	display: grid;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.modal-window div:not(:last-of-type) {
+	margin-bottom: 15px;
+}
+
+
+.modal__center {
+    text-align: center;
+}
+
+.modal__go {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* MODAL */
